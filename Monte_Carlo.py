@@ -46,7 +46,6 @@ for j in range(100):  #za 100 pokušaja
         listaXmin = listaX.copy()
         listaYmin = listaY.copy()
 
-
 print(listaXmin)
 
 plt.plot([0,6], [yn2, yn2], color = "grey", linestyle = "dashed")
@@ -58,18 +57,3 @@ plt.plot(listaXmin, listaYmin)
 plt.plot([0,6], [yn2, yn2], color = "grey", linestyle = "dashed")
 plt.plot([0,6], [yn3, yn3], color = "grey", linestyle = "dashed")
 plt.show()
-
-
-#sad triba pamtit tg(theta), vrime koje računamo iz v i n
-
-
-
-
-
-
-
-#triba napravit da se lomi za nasumičnu količinu iz intervala [-x, x]
-
-
-
-#triba usporedit vrimena za svaku liniju
